@@ -12,7 +12,7 @@ which can be translated is the title of an article. In the database the title of
 `oxtitle` of the table `oxarticles`. If you configure two
 languages, `de` and `en`, both the `de` and the `en` contents have to be stored somewhere. This is done by using
 another column, the column `oxtitle_1` in the table `oxarticles`.
-In generel OXID eShop stores translations by adding more columns, tables and views to the database if you configure more languages.
+In general OXID eShop stores translations by adding more columns, tables and views to the database if you configure more languages.
 
 Every language has a numeric id. The data for language id 0 goes into `oxarticles\.oxtitle`, data for language id 1
 into `oxarticles\.oxtitle_1`, language 2 into `oxarticles\.oxtitle_2`, language 3 into `oxarticles\.oxtitle_3`.

@@ -89,7 +89,7 @@ You can define a routing of ``controller keys`` to module classes.
 
 The key of this array
 
-* is a identifier (``controller key``) which should be unique over all OXID eShop modules. Use vendor id and module id for prefixing.
+* is a identifier (``controller key``) which must be unique over all OXID eShop modules. Use vendor id and module id for prefixing.
 * Take care you declare the keys always in lower case!
 
 The value is the assigned class which should also be unique.
